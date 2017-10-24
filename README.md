@@ -9,4 +9,4 @@ Weaker links include the grid system. I am attempting to abstract it to what is 
 
 Here is a brief summary of each file and its functionality
 
-1. angledet.py: calculates the angle between the current point's place on an abstract line and a point in the distance. 
+1. angledet.py: calculates the angle between the current position and heading and a point in the dist
