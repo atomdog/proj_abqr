@@ -9,4 +9,8 @@ Weaker links include the grid system. I am attempting to abstract it to what is 
 
 Here is a brief summary of each file and its functionality
 
-1. angledet.py: calculates the angle between the current position and heading and a point in the dist
+1. angledet.py: calculates the angle between the current position and heading and a point of destination. Used for trajectory
+2. detnewxy.py: calculates a destination point using the angle and distance from the current location
+3. gaussfunction.py: calculates concentric circles spaced in a Gaussian manner around a point, creates a rough field of likelihood
+4. planeconversion.py: calculates the location on the Cartesian plane of points in the distance
+5. planeconversionvisualization.py: graphical representative of scanned points on the cartesian plane
