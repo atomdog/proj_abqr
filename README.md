@@ -6,3 +6,7 @@ Most of the codebase consists of functions so that relatively complicated action
 Simple and mathematical was the mantra during much of the design process, and the code does an acceptable job at representing that. 
 
 Weaker links include the grid system. I am attempting to abstract it to what is functionally a Cartesian plane where every point above a certain resolution contains an additional state value. 
+
+Here is a brief summary of each file and its functionality
+
+1. angledet.py: calculates the angle between the current point's place on an abstract line and a point in the distance. 
